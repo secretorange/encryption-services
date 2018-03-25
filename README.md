@@ -43,7 +43,7 @@ public class Example
         WebTokenService = webTokenService;
     }
 
-    public void Demo(HttpContext ctx)
+    public void Demo()
     {
         var data = "123456789";
 
