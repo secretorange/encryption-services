@@ -2,7 +2,7 @@
 Create time sensitive encrypted tokens that are safe to transmit via query string paramteters.
 
 ## appsettings.json
-```
+```json
 {
   "Encryption": {
     "Key": "DO_NOT_USE_THIS_DO_NOT_USE_THIS!" // 32 char string
@@ -11,7 +11,7 @@ Create time sensitive encrypted tokens that are safe to transmit via query strin
 ```
 
 ## Register Services
-```
+```csharp
 public class Startup
 {
     private readonly IConfiguration Configuration;
@@ -35,7 +35,7 @@ public class Startup
 
 ## Demo Middleware
 
-```
+```csharp
 public class DemoMiddleware
 {
     private const int ExpiryTimeInMins = 10;
