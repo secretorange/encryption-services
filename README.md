@@ -2,10 +2,11 @@
 Create time sensitive encrypted tokens that are safe to transmit via query string paramteters.
 
 ## appsettings.json
-```json
+Key is a 32 char string
+```
 {
   "Encryption": {
-    "Key": "DO_NOT_USE_THIS_DO_NOT_USE_THIS!" // 32 char string
+    "Key": "DO_NOT_USE_THIS_DO_NOT_USE_THIS!" 
   }
 }
 ```
