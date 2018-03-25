@@ -1,5 +1,5 @@
 # Web Safe Token Service
-Create time sensitive encrypted tokens that are safe to transmit via query string paramteters.
+Create time sensitive encrypted tokens that are safe to transmit via query string parameters.
 
 ## appsettings.json
 Key is a 32 char string
